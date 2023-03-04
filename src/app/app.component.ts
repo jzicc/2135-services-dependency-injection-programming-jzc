@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.todaydate = this.myservice.showTodayDate();
     console.log(this.myservice.serviceproperty);
-    this.myservice.serviceproperty = 'component by Ryan Joshua Milan';
+    this.myservice.serviceproperty = 'component by John Zacqueo I. Carreon';
     this.componentproperty = this.myservice.serviceproperty;
   }
 }
